@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+    font-family: sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color: #fff;
+}
+
+header .menu-bar{
+    position: absolute;
+    top: 30px;
+    left: 29px;
+}
+
+header .header-logo{
+    position: absolute;
+    top: 25px;
+    left: 72px;
+}
+
+header .search-icon{
+    position: absolute;
+    top: 35px;
+    left: 291px;
+    width: 16px;
+    height: 16px;
+}
+
+header .search{
+    position: absolute;
+    top: 35px;
+    left: 16.5vw;
+    font-size: 16px;
+}
+
+header .notification-icon{
+    position: absolute;
+    top: 35px;
+    left: 80vw;
+}
+
+header .profile{
+    position: absolute;
+    top: 25px;
+    left: 85vw;
+}
+
+header .john{
+    position: absolute;
+    top: 35px;
+    left: 88vw;
+    font-size: 21px;
+}
+
+header .download-arrow{
+    position: absolute;
+    top: 38px;
+    left: 95vw;
+}
+
+.sidebar{
+    height: 139vh;
+    width: 14vw;
+    background: #fff;
+}
+
+.sidebar .dashboard img, .analysis img, .inbox img, .history img, .users img, .maintances img, .setting img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.dashboard, .analysis, .inbox, .history, .users, .maintances, .setting{
+    position: absolute;
+    left: 2vw;
+    display: flex;
+    gap: 10px;
+    padding-left: 25px;
+    align-items: center;
+    width: 183px;
+    height: 43px;
+}
+
+.sidebar .dashboard p, .analysis p, .inbox p, .history p, .users p, .maintances p, .setting p{
+    font: 21px;
+}
+
+.sidebar .dashboard{
+    padding-top: 25px;
+}
+
+.sidebar .analysis{
+    padding-top: 87.97px;
+}
+
+.sidebar .inbox{
+    padding-top: 140.97px;
+}
+
+.sidebar .history{
+    padding-top: 193.97px;
+}
+
+.sidebar .users{
+    padding-top: 246.97px;
+}
+
+.sidebar .maintances{
+    padding-top: 299.97px;
+}
+.sidebar .setting{
+    padding-top: 352.97px;
+}

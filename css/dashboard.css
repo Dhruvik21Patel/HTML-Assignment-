@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+    font-family: sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color: #fff;
+}
+
+header .menu-bar{
+    position: absolute;
+    top: 30px;
+    left: 29px;
+}
+
+header .header-logo{
+    position: absolute;
+    top: 25px;
+    left: 72px;
+}
+
+header .search-icon{
+    position: absolute;
+    top: 35px;
+    left: 291px;
+    width: 16px;
+    height: 16px;
+}
+
+header .search{
+    position: absolute;
+    top: 35px;
+    left: 16.5vw;
+    font-size: 16px;
+}
+
+header .notification-icon{
+    position: absolute;
+    top: 35px;
+    left: 80vw;
+}
+
+header .profile{
+    position: absolute;
+    top: 25px;
+    left: 85vw;
+}
+
+header .john{
+    position: absolute;
+    top: 35px;
+    left: 88vw;
+    font-size: 21px;
+}
+
+header .download-arrow{
+    position: absolute;
+    top: 38px;
+    left: 95vw;
+}
+
+.sidebar{
+    height: 139vh;
+    width: 14vw;
+    background: #fff;
+}
+
+.sidebar .dashboard img, .analysis img, .inbox img, .history img, .users img, .maintances img, .setting img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.dashboard, .analysis, .inbox, .history, .users, .maintances, .setting{
+    position: absolute;
+    left: 2vw;
+    display: flex;
+    gap: 10px;
+    padding-left: 25px;
+    align-items: center;
+    width: 183px;
+    height: 43px;
+}
+
+.sidebar .dashboard p, .analysis p, .inbox p, .history p, .users p, .maintances p, .setting p{
+    font: 21px;
+}
+
+.sidebar .dashboard{
+    padding-top: 25px;
+}
+
+.sidebar .analysis{
+    padding-top: 87.97px;
+}
+
+.sidebar .inbox{
+    padding-top: 140.97px;
+}
+
+.sidebar .history{
+    padding-top: 193.97px;
+}
+
+.sidebar .users{
+    padding-top: 246.97px;
+}
+
+.sidebar .maintances{
+    padding-top: 299.97px;
+}
+.sidebar .setting{
+    padding-top: 352.97px;
+}
+
+.main .main-dashboard{
+    position: absolute;
+    top: 121px;
+    left: 360px;
+    font-size: 30px;
+    font-family: Roboto;
+    color: #000000;
+}
+
+.total-products .icon .product-icon{
+    height: 38.33px;
+    width: 33.34px;
+}
+
+.main .items{
+    position: absolute;
+    top: 182px;
+    display: flex;
+    gap: 40px;
+}
+
+.main .items .new-products, .added-products, .total-products, .today-sale, .total-sale{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 116px;
+    width: 240px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.main .items .new-products{
+    left: 370px;
+}
+
+.main .items .added-products{
+    left: 670px;
+}
+
+.main .items .total-products{
+    left: 967px;
+}
+
+.main .items .today-sale{
+    left: 1260px;
+}
+
+.main .items .total-sale{
+    left: 1550px;
+}
+
+.main .items .products-description .numbers{
+    font-size: 25px;
+    color: #3E3E3E;
+}
+
+.main .sale{
+    position: absolute;
+    top: 328px;
+    left: 370px;
+    width: 920px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.main .sale .top .heading{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 43px;
+    height: 29px;
+    text-align: left;
+    font: 29px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+.main .sale .top .country-sale .heading, .listing .heading{
+    top: 352px;
+    left: 399px;
+    width: 43px;
+    height: 29px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+.sale .top .timeline{
+    position: absolute;
+    top: 3.5vh;
+    left: 35vw;
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    color: #ADADAD;
+}
+
+.sale .graph{
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 42vw;
+}
+
+.sale .top .timeline .yearly{
+    color: #C8242F;
+}
+
+.sale .top .timeline .line{
+    position: absolute;
+    top: 3vh;
+    left: 8vw;
+    background-color: #C8242F;
+    height: 2px;
+    width: 40px;
+}
+
+.country-sale{
+    position: absolute;
+    top: 328px;
+    left: 1355px;
+    background-color: #fff;
+    height: 450px;
+    width: 430px;
+}
+
+.country-sale .heading{
+    padding-top: 22px;
+    padding-left: 29px;
+    text-align: left;
+    font: 29px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+.country-sale .pie-chart{
+    position: absolute;
+    top: 10vh;
+    left: 4vw;
+}
+
+.country-sale .country .col-1, .country-sale .country .col-2{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+}
+
+.country-sale .country .col-1{
+    top: 35vh;
+}
+
+.country-sale .country .col-2{
+    top: 40vh;
+}
+
+.country-sale .country .col-1 .name-1, .country-sale .country .col-1 .name-2, .country-sale .country .col-2 .name-1, .country-sale .country .col-2 .name-2{
+    display: flex;
+    margin-left: 40px;
+}
+
+.country-sale .country .col-1 .name-1 .red, .country-sale .country .col-1 .name-2 .green, .country-sale .country .col-2 .name-1 .orange, .country-sale .country .col-2 .name-2 .yellow{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.country-sale .country .col-1 .name-1 .red{
+    background: #C8242F;
+}
+
+.country-sale .country .col-1 .name-2 .green{
+    background: #A2B86C;
+}
+
+.country-sale .country .col-2 .name-1 .orange{
+    background: #F16C20;
+}
+
+.country-sale .country .col-2 .name-2 .yellow{
+    background: #EBC844;
+    padding-left: 8px;
+}
+
+.country-sale .country .col-1 .name-1 .text{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.country-sale .country .col-1 .name-2 .text{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.country-sale .country .col-2 .name-1 .text{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.country-sale .country .col-2 .name-2 .text{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.country-sale .country .col-2 .name-2{
+    margin-left: 8.1vw;
+}
+
+.listing{
+    position: absolute;
+    top: 850px;
+    left: 370px;
+    background: #fff;
+    width: 73vw;
+    height: 558px;
+}
+
+.listing table{
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+table {
+    position: absolute;
+    top: 7vh;
+    left: 2vw;
+    border-collapse: collapse;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  tr{
+    border-bottom: 2px solid #e9e9e9;
+    font-size: 15px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+  }
+
+  th{
+    color: #ADADAD;
+    text-transform: uppercase;
+  }
+
+  #paid{
+    color: #3CDD5F;
+    /* text-align: center; */
+    /* background: #EBFFEF; */
+  }
+
+  #failed{
+    color: #FF4545;
+  }
+
+  #pending{
+    color: #BABABA;
+  }
+
+  .listing .heading{
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    /* padding-top: 25px; */
+    /* padding-left: 25px; */
+    /* width: 43px; */
+    /* height: 29px; */
+    text-align: left;
+    font-size: 25px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+}
+
+.listing .view{
+    position: absolute;
+    top: 3vh;
+    left: 67vw;
+    text-align: left;
+    font-size: 16px;
+    font-family: Roboto;
+    color: #C8242F;
+}

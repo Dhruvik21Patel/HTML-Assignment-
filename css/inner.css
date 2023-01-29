@@ -37,7 +37,7 @@ header .search-icon{
 header .search{
     position: absolute;
     top: 35px;
-    left: 16.5vw;
+    left: 315px;
     font-size: 16px;
 }
 
@@ -67,8 +67,8 @@ header .download-arrow{
 }
 
 .sidebar{
-    height: 139vh;
-    width: 14vw;
+    height: 1860px;
+    width: 242px;
     background: #fff;
 }
 
@@ -118,4 +118,419 @@ header .download-arrow{
 }
 .sidebar .setting{
     padding-top: 352.97px;
+}
+
+.main .main-analysis{
+    position: absolute;
+    top: 121px;
+    left: 290px;
+    font-size: 39px;
+    text-align: left;
+    font-family: Roboto;
+    color: #000000;
+}
+
+.main .main-form{
+    position:absolute;
+    top: 182px;
+    left: 292px;
+    width: 1218px;
+    height: 1749px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.main .main-form .main-form-one{
+    padding-top: 23px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .form-name{
+    padding-top: 44px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+}
+
+.main .main-form .form-name input[type=text] {
+    width: 1157px;
+    height: 49px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #ADADAD;
+    padding-left: 13.63px;
+    border-radius: 5px;
+}
+
+.main .main-form .form-dropdown {
+    padding-top: 21px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+}
+
+.main .main-form .form-dropdown input[type=text],
+select {
+    font-family: Roboto;
+    font-size: 20px;
+    width: 1157px;
+    height: 49px;
+    color: #ADADAD;
+    border-radius: 5px;
+    padding-left: 13.63px;
+}
+
+.main .main-form .form-multiline{
+    padding-top: 21px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+}
+
+.main .main-form .form-multiline textarea{
+    padding-top: 14px;
+    padding-left: 14px;
+    background: #FFFFFF;
+    color: #ADADAD;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 1157px;
+    height: 130px;
+}
+
+.main .main-form .main-form-two {
+    padding-top: 44px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .form-second-colomn-one{
+    padding-top: 16px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+}
+
+.main .main-form .form-second-colomn-one input[type=text] {
+    width: 563px;
+    height: 49px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #ADADAD;
+    padding-left: 13.63px;
+    border-radius: 5px;
+}
+
+.main .main-form .form-second-colomn-two{
+    width: 563px;
+    height: 49px;
+    padding-top: 20px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+}
+
+.main .main-form .form-second-colomn-two input[type=password] {
+    width: 100%;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #ADADAD;
+    padding-left: 13.63px;
+    border-radius: 5px;
+}
+
+.main .main-form .form-second-colomn-two input[type=text],
+select {
+    font-family: Roboto;
+    font-size: 20px;
+    /* width: 563px; */
+    height: 49px;
+    color: #ADADAD;
+    border-radius: 5px;
+    padding-left: 13.63px;
+}
+
+.main .main-form .main-form-three{
+    padding-top: 44px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .form-three{
+    padding-top: 20px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px;
+}
+
+.main .main-form .form-three input[type=text],input[type=password]{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 364px;
+    height: 47px;
+    color: #ADADAD;
+    border-radius: 5px;
+    padding-left: 13.63px;
+}
+
+.main .main-form .form-three input[type=disable]{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 364px;
+    height: 47px;
+    color: #ADADAD;
+    border-radius: 5px;
+    border: dotted;
+    padding-left: 13.63px;
+}
+
+.main .main-form .main-form-four{
+    padding-top: 44px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .form-four{
+    padding-top: 20px;
+    padding-left: 30.5px;
+    background: #FFFFFF;
+    border: #ADADAD;
+    border-radius: 5px;
+    display: flex;
+    gap: 31px;
+}
+
+.main .main-form .form-four input[type=text],select{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 266px;
+    height: 47px;
+    color: #ADADAD;
+    border-radius: 5px;
+    padding-left: 13.63px;
+}
+
+.main .main-form .other-design-elements{
+    padding-top: 69px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .other-design-elements .element{
+    padding-top: 44px;
+    padding-left: 29px;
+    font-size: 29px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .other-design-elements .file-upload p{
+    margin-top: 21px;
+    padding-left: 29px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .other-design-elements .file-upload .upload-button{
+    display: flex;
+    gap: 20px;
+}
+.main .main-form .other-design-elements .file-upload button {
+    width: 124px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 29px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+    background-color: #fff;
+    color: #C8242F;
+}
+
+.main .main-form .other-design-elements .file-upload .selected{
+    font: 12px Roboto;
+    color: #ADADAD;
+}
+
+.main .main-form .other-design-elements .radio-buttons p {
+    margin-top: 21px;
+    padding-left: 29px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .other-design-elements .radio-buttons .radio-button {
+    display: flex;
+    gap: 10px;
+    margin-top: 21px;
+    padding-left: 29px;
+}
+
+.main .main-form .other-design-elements .radio-buttons .radio-button label{
+    font: 15px Roboto;
+}
+
+.main .main-form .other-design-elements .radio-buttons .radio-button #option2{
+    margin: 0 10px 0 43px;
+}
+
+.main .main-form .other-design-elements .checkboxs p {
+    margin-top: 21px;
+    padding-left: 29px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #3E3E3E;
+}
+
+.main .main-form .other-design-elements .checkboxs .checkbox {
+    display: flex;
+    gap: 10px;
+    margin-top: 21px;
+    padding-left: 29px;
+}
+
+.main .main-form .other-design-elements .checkboxs .checkbox label {
+    font: 15px Roboto;
+}
+
+.main .main-form .other-design-elements .checkboxs .checkbox #option2 {
+    margin: 0 10px 0 43px;
+}
+
+.main .main-form .other-design-elements img {
+    width: 3vw;
+    height: 3vh;
+}
+
+.main .main-form .other-design-elements .snack-1 p,
+.main .main-form .other-design-elements .snack-2 p {
+    border-radius: 5px;
+    width: 30vw;
+    padding: 3px;
+}
+
+.main .main-form .other-design-elements .snack-1 p {
+    border: 1px solid #FF3535;
+}
+
+.main .main-form .other-design-elements .snack-2 p {
+    border: 1px solid #00B9E1;
+}
+
+.main .main-form .other-design-elements .snackbar-two .snack-1 p {
+    border: 1px solid #FFA800;
+}
+
+.main .main-form .other-design-elements .snackbar-two .snack-2 p {
+    border: 1px solid #00AF27;
+}
+
+
+.main .main-form .other-design-elements .snack-1 span {
+    color: #FF3535;
+}
+
+.main .main-form .other-design-elements .snack-2 span {
+    color: #00B9E1;
+}
+
+.main .main-form .other-design-elements .snackbar-two .snack-1 span {
+    color: #FFA800;
+}
+
+.main .main-form .other-design-elements .snackbar-two .snack-2 span {
+    color: #00AF27;
+}
+
+.main .main-form .other-design-elements .snackbar-one,
+.main .main-form .other-design-elements .snackbar-two {
+    display: flex;
+    gap: 10vw;
+    padding-left: 29px ;
+    padding-top: 10px;
+}
+
+.main .main-form .other-design-elements .snackbar-two {
+    margin-top: 27px;
+}
+
+.main .main-form .other-design-elements .buttons{
+    padding-left: 29px; 
+}
+
+.main .main-form .other-design-elements .buttons .btn-1 {
+    font-size: 18px;
+    padding: 8px;
+    width: 6vw;
+    background-color: #C8242F;
+    color: #fff;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+}
+
+.main .main-form .other-design-elements .buttons .btn-2 {
+    font-size: 18px;
+    padding: 8px;
+    width: 6vw;
+    color: #C8242F;
+    border-radius: 23px;
+    border: 1px solid #C8242F;
+    background: #fff;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.main .main-form .other-design-elements .tabs {
+    display: flex;
+    gap: 3vw;
+    padding-top: 8px;
+    font-size: 15px;
+    color: #ADADAD;
+    border-bottom: 1px solid #ADADAD;
+    margin-left: 29px;
+}
+
+.main .main-form .other-design-elements .tabs .tab-1 {
+    border-bottom: 3px solid #C8242F;
+    padding-bottom: 9px;
+}
+
+.main .main-form .other-design-elements .dummy-text {
+    font-size: 15px;
+    color: #3E3E3E;
+    padding-left: 29px;
+}
+
+.main .main-form .other-design-elements .sub-heading{
+    margin-top: 21px;
+    padding-left: 29px;
+    font-size: 24px;
+    font-family: Roboto;
+    color: #3E3E3E;
 }

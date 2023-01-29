@@ -369,13 +369,13 @@ table {
     text-transform: uppercase;
   }
 
-  #paid{
+  .paid{
     color: #3CDD5F;
     /* text-align: center; */
     /* background: #EBFFEF; */
   }
 
-  #failed{
+  .failed{
     color: #FF4545;
   }
 
